@@ -4,7 +4,7 @@
 
 from pyrogram import filters, Client
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, CallbackQuery
-from bot import Translation, LOGGER # pylint: disable=import-error
+from bot import Translation, LOGGLOGGERER # pylint: disable=import-error
 from bot.database import Database # pylint: disable=import-error
 
 db = Database()
@@ -35,7 +35,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developers', url="https://t.me/CrazyBotsz"
+                                    'Channel', url="https://t.me/Mallu_CINEMASSS"
                                 )
                         ]
                     ]
